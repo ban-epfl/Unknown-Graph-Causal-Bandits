@@ -82,5 +82,11 @@ After the run, you’ll find files like:
 
 To cite this work, please use the following BibTeX entry:
 
-```bibtex
+```
+@article{shahverdikondori2025graph,
+  title={Graph Learning is Suboptimal in Causal Bandits},
+  author={Shahverdikondori, Mohammad and Etesami, Jalal and Kiyavash, Negar},
+  journal={arXiv preprint arXiv:2510.16811},
+  year={2025}
+}
 ```
