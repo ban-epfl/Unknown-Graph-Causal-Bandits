@@ -1,7 +1,7 @@
 # Causal Bandit with Unknwon Structure
 
 
-This repository provides the implementation of the paper "Graph Learning is Suboptimal in Causal Bandits," featuring code to run and compare various **causal bandit algorithms** within a fixed environment instance.  
+This repository provides the implementation of the AISTATS 2026 paper "Graph Learning is Suboptimal in Causal Bandits," featuring code to run and compare various **causal bandit algorithms** within a fixed environment instance.  
 The code initializes a causal bandit environment with given structural parameters and runs selected algorithms, such as **Known_k_UCB+**, **Unknown_k_UCB+**, **Standard_UCB**, and **RAPS**, to evaluate their cumulative regret performance over multiple runs.
 
 Each experiment logs and saves the **average cumulative regret** and its **standard deviation** across multiple independent iterations, enabling direct comparison of algorithms under identical conditions.
@@ -83,10 +83,12 @@ After the run, you’ll find files like:
 To cite this work, please use the following BibTeX entry:
 
 ```
-@article{shahverdikondori2025graph,
-  title={Graph Learning is Suboptimal in Causal Bandits},
-  author={Shahverdikondori, Mohammad and Etesami, Jalal and Kiyavash, Negar},
-  journal={arXiv preprint arXiv:2510.16811},
-  year={2025}
+@inproceedings{
+shahverdikondori2026graph,
+title={Graph Learning is Suboptimal in Causal Bandits},
+author={Mohammad Shahverdikondori and Jalal Etesami and Negar Kiyavash},
+booktitle={The 29th International Conference on Artificial Intelligence and Statistics},
+year={2026},
+url={https://openreview.net/forum?id=CF8vvfItK3}
 }
 ```
